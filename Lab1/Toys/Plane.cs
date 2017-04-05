@@ -14,14 +14,14 @@ namespace Lab1.Toys
 
         public void Accelerate(int change)
         {
-            Speed += change;
+            Speed += 2*change;
         }
 
         public void SlowDown(int change)
         {
             if (Speed > 0)
             {
-                Speed -= change;
+                Speed -= 2*change;
             }
         }
 
